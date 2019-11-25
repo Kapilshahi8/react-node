@@ -1,0 +1,23 @@
+// Modals
+
+.modal-header,
+.modal-footer {
+  background: $gray-100;
+}
+
+.modal-footer {
+  @include border-bottom-radius($border-radius);
+}
+
+.modal-dialog {
+  box-shadow: $box-shadow-lg-default;
+  @include border-radius($border-radius);
+}
+.col-count-2{
+  column-count: 2;
+}
+.modalHeaderInformation{
+  font-size: 17px;
+  background: #6bd89c7a;
+  padding: 4px 0px 4px 4px;
+}

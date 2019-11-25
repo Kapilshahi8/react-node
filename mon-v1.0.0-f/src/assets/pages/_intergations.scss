@@ -1,0 +1,97 @@
+.integrationBox {
+  width: 100%;
+  height: 225px;
+  background: #f1f4f6;
+  border: 2px solid rgba(241, 241, 241, 0.3);
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+
+  margin-bottom: 25px;
+}
+
+.int-name {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.int-status {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: lightseagreen;
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+.int-desc {
+  margin-top: 25px;
+  font-size: 12px;
+}
+
+.splitter {
+  height: 50px;
+}
+
+
+.soon {
+  font-size: 21px;
+}
+
+.see-current {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.keyData {
+  display: flex;
+  flex-direction: column;
+}
+
+.tbname {
+  width: 60px;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.keyData i {
+  padding: 2px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  background: lightskyblue;
+}
+
+i.appid {
+  background: lightsalmon;
+}
+
+
+.keyData div {
+  margin-bottom: 5px;
+}
+
+.copy-icn {
+  cursor: pointer;
+}
+
+.addToken {
+  line-height: 14px;
+  border: 1px solid lightblue;
+  background: lightblue;
+  padding: 8px 16px;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.revokeToken {
+  display: block;
+  text-align: right;
+  color: darkred;
+  margin-top: 15px;
+  cursor: pointer;
+}
